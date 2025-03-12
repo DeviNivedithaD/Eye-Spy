@@ -1,0 +1,72 @@
+/* App.css */
+
+body {
+  font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Set background to black */
+  color: white; /* Set default text color to white for better contrast */
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #191970; /* Midnight Blue */
+  color: white;
+  padding: 20px 0;
+}
+
+.map-container {
+  margin: 20px auto;
+  max-width: 800px;
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #191970; /* Midnight Blue */
+  color: white;
+  padding: 30px 0; /* Increased padding for more space */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px; /* Increased margin to push footer down further */
+}
+
+/* Reset Button Styles */
+.reset-button {
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.reset-button:hover {
+  background-color: #333; /* Darker shade on hover */
+}
